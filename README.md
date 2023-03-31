@@ -1,7 +1,9 @@
 # ucakBiletii
 import java.util.Scanner;
-public class Odev14UcakBileti {
+
+public class UcakBileti {
     public static void main(String[] args) {
+    
         Scanner input=new Scanner(System.in);
         int yas,yolculuktipi;
         double fiyat,mesafe;
@@ -12,6 +14,7 @@ public class Odev14UcakBileti {
         System.out.println("Yolculuk tipi giriniz:\n1-Tek yön\n2-Gidiş-Dönüş");
         yolculuktipi=input.nextInt();
         fiyat = mesafe*0.10;
+        
         if(mesafe>0&&yas>=0){
             if(yolculuktipi==1||yolculuktipi==2){
                 if(yolculuktipi==1){
