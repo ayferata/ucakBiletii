@@ -40,6 +40,7 @@ public class UcakBileti {
                 
             }else{
                 System.out.println("Hatalı yolculuk tipi girdiniz.");
+                
             }
         }else{
             System.out.println("Hatalı bilgi girdiniz.");
