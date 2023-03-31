@@ -1,5 +1,4 @@
 # ucakBiletii
-package BKosulluIfadeler;
 import java.util.Scanner;
 public class Odev14UcakBileti {
     public static void main(String[] args) {
