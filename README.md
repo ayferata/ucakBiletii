@@ -37,6 +37,7 @@ public class UcakBileti {
                         fiyat=(fiyat-fiyat*0.3)-((fiyat-fiyat*0.3)*0.2);
                     }
                 }
+                
             }else{
                 System.out.println("Hatalı yolculuk tipi girdiniz.");
             }
