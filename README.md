@@ -10,6 +10,7 @@ public class UcakBileti {
         
         System.out.println("Mesafe giriniz(KM):");
         mesafe=input.nextDouble();
+        
         System.out.println("Yaşınızı giriniz:");
         yas=input.nextInt();
         System.out.println("Yolculuk tipi giriniz:\n1-Tek yön\n2-Gidiş-Dönüş");
