@@ -24,6 +24,7 @@ public class UcakBileti {
                         fiyat=fiyat-fiyat*0.1;
                     } else if(yas>65){
                         fiyat=fiyat-fiyat*0.3;
+                        
                     }
                 }else{
                     if(yas<12){
